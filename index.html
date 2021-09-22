@@ -10,9 +10,32 @@
     <h1 id="title">Title</h1>
     <p id="description">this is a short descriptoinn</p>
     <form id="survey-form">
-      <input type="text" id="name" />
-      <input type="email" id="email" />
-      <input type="number" id="number" />
+      <label id="name-label" for ="name">Name</label>
+      <input type="text" id="name" placeholder="Name" />
+      <label id="email-label" for ="email">email</label>
+      <input type="email" id="email" placeholder="email"/>
+      <label id="number-label" for ="number">Number</label>
+      <input type="number" id="number" placeholder="Number" min = "1" max = "10"/>
+      <select id = "dropdown">
+        <option>tree1</option>
+        <option>tree2</option>
+        <option>tree3</option>
+
+      </select>
+      <p>Male Section</p>
+      <div>
+      <label for="male1">male1 <input id="male1" type="radio" name="male"> </label>
+      
+      <label for="male2">male2 <input id = "male2" type="radio" name="male"> </label>
+      </div>
+
+      <div>
+      <label for="Female">Female <input id ="Female" type="radio" name="Female"> </label> 
+      <label for="Female1">Female1 <input id ="Female1" type="radio" name="Female"> </label>
+      </div>
+      
+      
+      
     </form>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
